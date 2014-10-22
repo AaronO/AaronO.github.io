@@ -1,0 +1,4 @@
+permalink: '/blog/:year/:title/'
+base: http://omullan.com
+name: Software Engineer / Founder, I build products
+author: Aaron O'Mullan

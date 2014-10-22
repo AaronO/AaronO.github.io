@@ -1,0 +1,27 @@
+<section class="main-header {% if page.path == 'index.html' %}home{% else %}regular{% endif %}">
+
+    <div class="vertical-container">
+
+    	<div class="wrapper clearfix">
+
+	        <header{% if page.path != 'index.html' %} class="smaller"{% endif %}>
+	        	{% if page.path != 'index.html' %}<a href="/">{% endif %}
+	        		<img src="/img/me.jpg" id="main-profile" />
+	        		<div class="titles">
+			            <h1 id="main-title">Aaron O'Mullan</h1>
+			            <h2 id="main-subtitle">CEO Co-Founder @ GitBook</h2>
+		        	</div>
+	        	{% if page.path != 'index.html' %}</a>{% endif %}
+	        </header>
+
+	        <nav id="main-nav" role="navigation">
+				<a href="/about/" class="{% if page.url == '/about/index.html' %}selected{% endif %}">About</a>
+				<a href="/blog/" class="{% if page.url == '/blog/index.html' %}selected{% endif %}">Blog</a>
+				<a href="mailto:aaron@gitbook.io">Contact</a>
+			</nav>
+
+		</div>
+
+    </div>
+
+</section>
