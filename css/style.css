@@ -208,7 +208,7 @@ h4 + p {
 	border-radius: 1000px;
 	height: 150px;
 	border: 3px solid #fff;
-	margin-bottom: 20px;
+	margin: 20px 0 20px 0;
 }
 .smaller #main-profile {
 	width: 100px;
@@ -294,7 +294,7 @@ h4 + p {
 	height: 100%;
 }
 .vertical-container {
-	background: rgba(34, 34, 34, .6);
+	background: rgba(34, 34, 34, .4);
 	position: relative;
 	top: 0;
 	left: 0;
